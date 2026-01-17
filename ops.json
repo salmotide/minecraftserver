@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "uuid": "16350345-ac23-3594-b1d5-701f6f98edf1",
+    "name": "salmotide",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

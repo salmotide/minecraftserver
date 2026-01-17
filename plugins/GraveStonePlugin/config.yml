@@ -1,0 +1,9 @@
+# Allow other players to loot from someone else's coffin
+allowOtherPlayersLoot: true
+obituaryEnabled: true
+obituaryTitle: "&fObituary"
+
+messages:
+  notOwner: "&cThis is not your coffin!"
+  lootTaken: "&aYou took things!"
+  diedOn: "&f{player} died on {time}"

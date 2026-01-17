@@ -1,0 +1,8 @@
+calendar:
+  days_per_season: 28
+  advance:
+    follow_overworld_time: true      # Seguir reloj del overworld
+    on_sleep: true                   # Se ignora si follow_overworld_time = true
+    real_time_minutes_per_day: 0     # 0 = desactivado; >0 = modo tiempo real
+    require_players_on_server: false  # true = solo avanza si hay al menos 1 jugador EN CUALQUIER MUNDO
+    # false = avanza aunque el server esté vacío

@@ -1,0 +1,63 @@
+# English Language File (EN)
+errors:
+  no_permission: '§cYou do not have permission to do this.'
+  no_console: '§cOnly players can use this command.'
+  home_not_set: '§cNo home is set in slot §e%slot%§c.'
+  slot_locked: '§cYou cannot use slot §e%slot%§c. Your maximum is §e%max%§c.'
+  invalid_slot: '§c"§e%input%§c" is not a valid slot number (1-8).'
+  home_not_found: '§cCould not find a home with the name or slot "§e%input%§c".'
+  unknown_command: '§cUnknown command: §e%input%§c. Use /homes [set|tp|delete|rename].'
+  world_not_loaded: '§cThe world "§e%world%§c" is currently not loaded. Teleport failed.'
+
+usage:
+  set: '§cUsage: /homes set <slot> [optional_name]'
+  delete: '§cUsage: /homes delete <slot>'
+  rename: '§cUsage: /homes rename <slot> <new_name>'
+  tp: '§cUsage: /homes tp <slot_or_name>'
+
+teleport:
+  success: 'You have been teleported to your home §e%home_name%§7.'
+  start: '§aTeleporting to §e%home_name% §ain §e%seconds% §aseconds. Do not move!'
+  cancelled_move: '§cTeleport cancelled because you moved.'
+  cancelled_other: '§cYour previous teleport was cancelled.'
+
+set:
+  success: 'You set your home §e%home_name% §7(Slot %slot%) §7at your location.'
+
+delete:
+  success: 'You deleted your home §e%home_name% §7(Slot %slot%)§7.'
+
+rename:
+  success: 'Home §e%old_name% §7(Slot %slot%) is now named §e%new_name%§7.'
+
+# --- GUI Texts ---
+# These keys are used by config.yml
+gui:
+  # Titles
+  main_title: '§8My Homes'
+  submenu_title: '§8Home: %home_name%'
+
+  # State: Locked
+  locked_name: '§c§lLocked Slot'
+  locked_lore: '§7You do not have the required rank§7to unlock this slot.'
+
+  # State: Empty
+  empty_name: '§f§lEmpty Slot %slot_id%'
+  empty_lore: '§aClick to set your home here.'
+
+  # State: Set
+  set_name: '§a§lHome: %home_name%'
+  set_lore: |-
+    §7Slot: §f%slot_id%
+    §7World: §f%world%
+    §7X: §f%x% §7Y: §f%y% §7Z: §f%z%
+    
+    §aClick to manage this home.
+
+submenu:
+  teleport_name: '§a§lTeleport'
+  teleport_lore: '§7Teleports you to this home.'
+  delete_name: '§c§lDelete'
+  delete_lore: '§7Permanently deletes this home.'
+  close_name: '§e§lBack'
+  close_lore: '§7Returns to the home overview.'

@@ -1,0 +1,75 @@
+# ValoriaHomes Configuration
+# v1.0.1
+
+# Defines the default language of the plugin (filename without .yml)
+language: 'en'
+
+# Defines the prefix used in all plugin chat messages.
+chat_prefix: '§8[§bHomes§3Gui§8] §7'
+
+# GUI Settings
+gui:
+  # These title keys MUST match the keys in messages_en.yml
+  main_title_key: 'gui.main_title'
+  submenu_title_key: 'gui.submenu_title'
+
+  # Layout of the 8 home slots in the 4x9 inventory
+  layout:
+    slot.1: 1
+    slot.2: 3
+    slot.3: 5
+    slot.4: 7
+    slot.5: 19
+    slot.6: 21
+    slot.7: 23
+    slot.8: 25
+
+  # Item Definitions
+  items:
+    # Filler item
+    filler:
+      material: 'BLACK_STAINED_GLASS_PANE'
+
+    # State: Locked
+    locked_bed:
+      material: 'RED_BED'
+      name_key: 'gui.locked_name'
+      lore_key: 'gui.locked_lore'
+    locked_dye:
+      material: 'RED_DYE'
+      name_key: 'gui.locked_name'
+      lore_key: 'gui.locked_lore'
+
+    # State: Empty
+    empty_bed:
+      material: 'WHITE_BED'
+      name_key: 'gui.empty_name'
+      lore_key: 'gui.empty_lore'
+    empty_dye:
+      material: 'GRAY_DYE'
+      name_key: 'gui.empty_name'
+      lore_key: 'gui.empty_lore'
+
+    # State: Set
+    set_bed:
+      material: 'LIME_BED'
+      name_key: 'gui.set_name'
+      lore_key: 'gui.set_lore'
+    set_dye:
+      material: 'GREEN_DYE'
+      name_key: 'gui.set_name'
+      lore_key: 'gui.set_lore'
+
+    # --- Submenu Items ---
+    submenu_teleport:
+      material: 'ENDER_PEARL'
+      name_key: 'submenu.teleport_name'
+      lore_key: 'submenu.teleport_lore'
+    submenu_delete:
+      material: 'BARRIER'
+      name_key: 'submenu.delete_name'
+      lore_key: 'submenu.delete_lore'
+    submenu_close:
+      material: 'OAK_DOOR'
+      name_key: 'submenu.close_name'
+      lore_key: 'submenu.close_lore'

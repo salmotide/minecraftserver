@@ -1,0 +1,5 @@
+cooldown: 10 # seconds between requests
+timeout: 60 # seconds before request expires
+delay: 5 # seconds before teleport happens
+cancel-on-move: true
+cancel-on-damage: true

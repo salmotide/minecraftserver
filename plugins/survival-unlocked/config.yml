@@ -1,0 +1,28 @@
+# config
+
+smooth-sleep-transition:
+  enabled: true
+
+custom-shaped-portals:
+  enabled: true
+
+throwable-fireballs:
+  enabled: true
+
+invisible-item-frames:
+  enabled: true
+
+better-armor-stands:
+  enabled: true
+
+villagers-follow-emeralds:
+  enabled: true
+
+silence-mobs:
+  enabled: true
+
+more-mob-heads:
+  enabled: true
+
+player-head-drops:
+  enabled: true

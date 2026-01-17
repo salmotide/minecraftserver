@@ -1,80 +1,253 @@
-[04:31:10] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.1+8-LTS; Microsoft Microsoft-12574222) on Linux 6.8.0-1030-azure (amd64)
-[04:31:10] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-232-ver/1.21.4@12d8fe0 (2025-06-09T10:15:42Z) for Minecraft 1.21.4
-[04:31:11] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[04:31:11] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
-[04:31:11] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
- - Geyser-Spigot (2.9.2-SNAPSHOT), SkinsRestorer (15.9.3), ViaVersion (5.7.0)
-[04:31:16] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[04:31:18] [ServerMain/INFO]: Loaded 1370 recipes
-[04:31:18] [ServerMain/INFO]: Loaded 1481 advancements
-[04:31:18] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
-[04:31:18] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 197.3ms
-[04:31:18] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[04:31:18] [Server thread/INFO]: Loading properties
-[04:31:18] [Server thread/INFO]: This server is running Paper version 1.21.4-232-ver/1.21.4@12d8fe0 (2025-06-09T10:15:42Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
-[04:31:18] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[04:31:19] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[04:31:19] [Server thread/INFO]: Using 4 threads for Netty based IO
-[04:31:19] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[04:31:19] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[04:31:20] [Server thread/INFO]: Default game type: SURVIVAL
-[04:31:20] [Server thread/INFO]: Generating keypair
-[04:31:20] [Server thread/INFO]: Starting Minecraft server on *:25565
-[04:31:20] [Server thread/INFO]: Using epoll channel type
-[04:31:20] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[04:31:20] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[04:31:20] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.7.0
-[04:31:20] [Server thread/INFO]: [ViaVersion] ViaVersion 5.7.0 is now loaded. Registering protocol transformers and injecting...
-[04:31:21] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading block connection mappings ...
-[04:31:21] [Via-Mappingloader-1/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[04:31:21] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.9.3
-[04:31:21] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.9.2-SNAPSHOT
-[04:31:22] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[04:31:22] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[04:31:22] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[04:31:22] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.9.3
-[04:31:22] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.4.
-[04:31:23] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[04:31:23] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[04:31:23] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[04:31:23] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[04:31:23] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[04:31:23] [Server thread/INFO]: Preparing level "world"
-[04:31:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[04:31:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[04:31:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[04:31:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[04:31:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[04:31:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[04:31:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[04:31:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.9.3
-[04:31:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 989bf18
-[04:31:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[04:31:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[04:31:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[04:31:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[04:31:23] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[04:31:23] [Server thread/INFO]: Preparing spawn area: 0%
-[04:31:24] [Server thread/INFO]: Preparing spawn area: 4%
-[04:31:24] [Server thread/INFO]: Time elapsed: 978 ms
-[04:31:24] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[04:31:24] [Server thread/INFO]: Preparing spawn area: 0%
-[04:31:24] [Server thread/INFO]: Time elapsed: 228 ms
-[04:31:24] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[04:31:24] [Server thread/INFO]: Preparing spawn area: 0%
-[04:31:24] [Server thread/INFO]: Time elapsed: 145 ms
-[04:31:24] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.7.0
-[04:31:24] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.4 (769)
-[04:31:24] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.9.2-SNAPSHOT
-[04:31:26] [Server thread/INFO]: [spark] Starting background profiler...
-[04:31:27] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[04:31:27] [Server thread/INFO]: [Geyser-Spigot] 
-[04:31:27] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.9.2-b1035 (git-master-f90c664)
-[04:31:27] [Server thread/INFO]: [Geyser-Spigot] 
-[04:31:27] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[04:31:30] [GeyserServer-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
-[04:31:30] [Server thread/INFO]: [Geyser-Spigot] Done (3.407s)! Run /geyser help for help!
-[04:31:31] [Server thread/INFO]: Done preparing level "world" (8.236s)
-[04:31:31] [Server thread/INFO]: Running delayed init tasks
-[04:31:31] [Server thread/INFO]: Done (25.110s)! For help, type "help"
-[04:31:31] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[07:55:49] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.1+8-LTS; Microsoft Microsoft-12574222) on Linux 6.8.0-1030-azure (amd64)
+[07:55:49] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-232-ver/1.21.4@12d8fe0 (2025-06-09T10:15:42Z) for Minecraft 1.21.4
+[07:55:49] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[07:55:50] [ServerMain/INFO]: [PluginInitializerManager] Initialized 14 plugins
+[07:55:50] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+ - survival-unlocked (1.0)
+[07:55:50] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (13):
+ - BetterStructures (2.1.1), CustomizablePlayerModels (0.6.25a), GSit (3.1.1), Geyser-Spigot (2.9.2-SNAPSHOT), GraveStonePlugin (1.4), InteractionVisualizer (1.18.19.0), OnePlayerSleep (3.6.4), SeasonsCore (1.8), SkinsRestorer (15.9.3), SurvivalUtilities (1.0), TPA (1.0), ValoriaHomes (1.0.0), ViaVersion (5.7.0)
+[07:55:54] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[07:55:56] [ServerMain/INFO]: Loaded 1370 recipes
+[07:55:56] [ServerMain/INFO]: Loaded 1481 advancements
+[07:55:56] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[07:55:56] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 213.8ms
+[07:55:56] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[07:55:56] [Server thread/INFO]: Loading properties
+[07:55:56] [Server thread/INFO]: This server is running Paper version 1.21.4-232-ver/1.21.4@12d8fe0 (2025-06-09T10:15:42Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[07:55:56] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[07:55:56] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[07:55:56] [Server thread/INFO]: Using 4 threads for Netty based IO
+[07:55:57] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[07:55:57] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[07:55:57] [Server thread/INFO]: Default game type: SURVIVAL
+[07:55:57] [Server thread/INFO]: Generating keypair
+[07:55:57] [Server thread/INFO]: Starting Minecraft server on *:25565
+[07:55:57] [Server thread/INFO]: Using epoll channel type
+[07:55:57] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[07:55:57] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[07:55:57] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins/.paper-remapped/BetterStructures.jar' in 'plugins/.paper-remapped'
+org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins: [WorldEdit]. Please download and install these plugins to run 'BetterStructures'.
+	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:82) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:39) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:564) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:277) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1163) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+[07:55:58] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.7.0
+[07:55:58] [Server thread/INFO]: [ViaVersion] ViaVersion 5.7.0 is now loaded. Registering protocol transformers and injecting...
+[07:55:58] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading block connection mappings ...
+[07:55:59] [Via-Mappingloader-1/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[07:55:59] [Server thread/INFO]: [GSit] Loading server plugin GSit v3.1.1
+[07:55:59] [Server thread/INFO]: [SeasonsCore] Loading server plugin SeasonsCore v1.8
+[07:55:59] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.9.3
+[07:55:59] [Server thread/INFO]: [TPA] Loading server plugin TPA v1.0
+[07:55:59] [Server thread/INFO]: [CustomizablePlayerModels] Loading server plugin CustomizablePlayerModels v0.6.25a
+[07:55:59] [Server thread/INFO]: [SurvivalUtilities] Loading server plugin SurvivalUtilities v1.0
+[07:55:59] [Server thread/INFO]: [ValoriaHomes] Loading server plugin ValoriaHomes v1.0.0
+[07:55:59] [Server thread/INFO]: [OnePlayerSleep] Loading server plugin OnePlayerSleep v3.6.4
+[07:55:59] [Server thread/INFO]: [survival-unlocked] Loading server plugin survival-unlocked v1.0
+[07:55:59] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.9.2-SNAPSHOT
+[07:55:59] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[07:55:59] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[07:55:59] [Server thread/INFO]: [GraveStonePlugin] Loading server plugin GraveStonePlugin v1.4
+[07:55:59] [Server thread/INFO]: [InteractionVisualizer] Loading server plugin InteractionVisualizer v1.18.19.0
+[07:55:59] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[07:55:59] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.9.3
+[07:56:00] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.4.
+[07:56:01] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[07:56:01] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[07:56:01] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[07:56:01] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[07:56:01] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[07:56:01] [Server thread/INFO]: Preparing level "world"
+[07:56:01] [Folia Async Scheduler Thread #1/WARN]: [SkinsRestorer] Failed to get release info from api.github.com. 
+ If this message is repeated a lot, please see https://skinsrestorer.net/firewall
+[07:56:04] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[07:56:04] [Server thread/INFO]: Preparing spawn area: 0%
+[07:56:08] [Server thread/INFO]: Preparing spawn area: 0%
+[07:56:08] [Server thread/INFO]: Preparing spawn area: 0%
+[07:56:08] [Server thread/INFO]: Preparing spawn area: 0%
+[07:56:08] [Server thread/INFO]: Preparing spawn area: 0%
+[07:56:08] [Server thread/INFO]: Preparing spawn area: 0%
+[07:56:08] [Server thread/INFO]: Preparing spawn area: 0%
+[07:56:08] [Server thread/INFO]: Preparing spawn area: 0%
+[07:56:08] [Server thread/INFO]: Preparing spawn area: 0%
+[07:56:09] [Server thread/INFO]: Preparing spawn area: 0%
+[07:56:09] [Server thread/INFO]: Preparing spawn area: 0%
+[07:56:10] [Server thread/INFO]: Preparing spawn area: 0%
+[07:56:10] [Server thread/INFO]: Preparing spawn area: 0%
+[07:56:11] [Server thread/INFO]: Preparing spawn area: 0%
+[07:56:11] [Server thread/INFO]: Preparing spawn area: 0%
+[07:56:12] [Server thread/INFO]: Preparing spawn area: 0%
+[07:56:12] [Server thread/INFO]: Preparing spawn area: 2%
+[07:56:13] [Server thread/INFO]: Preparing spawn area: 2%
+[07:56:13] [Server thread/INFO]: Preparing spawn area: 12%
+[07:56:14] [Server thread/INFO]: Preparing spawn area: 18%
+[07:56:14] [Server thread/INFO]: Preparing spawn area: 18%
+[07:56:15] [Server thread/INFO]: Preparing spawn area: 42%
+[07:56:15] [Server thread/INFO]: Preparing spawn area: 51%
+[07:56:16] [Server thread/INFO]: Preparing spawn area: 51%
+[07:56:16] [Server thread/INFO]: Preparing spawn area: 51%
+[07:56:17] [Server thread/INFO]: Preparing spawn area: 75%
+[07:56:17] [Server thread/INFO]: Time elapsed: 12686 ms
+[07:56:17] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[07:56:17] [Server thread/INFO]: Preparing spawn area: 2%
+[07:56:18] [Server thread/INFO]: Preparing spawn area: 2%
+[07:56:18] [Server thread/INFO]: Preparing spawn area: 24%
+[07:56:19] [Server thread/INFO]: Preparing spawn area: 51%
+[07:56:19] [Server thread/INFO]: Time elapsed: 1866 ms
+[07:56:19] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[07:56:19] [Server thread/INFO]: Preparing spawn area: 2%
+[07:56:19] [Server thread/INFO]: Time elapsed: 429 ms
+[07:56:19] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.7.0
+[07:56:19] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.4 (769)
+[07:56:19] [Server thread/INFO]: [GSit] Enabling GSit v3.1.1
+[07:56:20] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
+[07:56:20] [Server thread/INFO]: [SeasonsCore] Enabling SeasonsCore v1.8
+[07:56:20] [Server thread/INFO]: [SeasonsCore] [SeasonsCore] FX deshabilitados en 2 mundos: [world_nether, world_the_end]
+[07:56:20] [Server thread/INFO]: [SeasonsCore] [SeasonalFlora] Loaded 5 flora rules (1 purge-only).
+[07:56:20] [Server thread/INFO]: [SeasonsCore] [AeternumSeasons] StartupMelt queued 49 loaded chunks.
+[07:56:20] [Server thread/INFO]: [SeasonsCore] [SeasonsCore] PlaceholderAPI not found, skipping placeholder registration.
+[07:56:20] [Server thread/INFO]: [SeasonsCore] SeasonsCore enabled.
+[07:56:20] [Server thread/INFO]: [TPA] Enabling TPA v1.0
+[07:56:20] [Server thread/INFO]: [CustomizablePlayerModels] Enabling CustomizablePlayerModels v0.6.25a
+[07:56:20] [Server thread/WARN]: [CustomizablePlayerModels] Command API not found, using fallback command system.
+[07:56:20] [Server thread/INFO]: [CustomizablePlayerModels] Attributes available, loading scalers
+[07:56:20] [Server thread/INFO]: [CustomizablePlayerModels] Using NamespacedKey attributes
+[07:56:20] [Server thread/INFO]: [CustomizablePlayerModels] Customizable Player Models Initialized
+[07:56:20] [Server thread/INFO]: [SurvivalUtilities] Enabling SurvivalUtilities v1.0
+[07:56:20] [Server thread/INFO]: [ValoriaHomes] Enabling ValoriaHomes v1.0.0
+[07:56:20] [Server thread/INFO]: [ValoriaHomes] ValoriaHomes wird geladen...
+[07:56:20] [Server thread/INFO]: [ValoriaHomes] Befehle registriert.
+[07:56:20] [Server thread/INFO]: [ValoriaHomes] ValoriaHomes wurde erfolgreich aktiviert.
+[07:56:20] [Server thread/INFO]: [OnePlayerSleep] Enabling OnePlayerSleep v3.6.4
+[07:56:20] [Server thread/INFO]: 
+[07:56:20] [Server thread/INFO]: ╔══════════════════════════════════════════════════╗
+[07:56:20] [Server thread/INFO]: ║                                                  ║
+[07:56:20] [Server thread/INFO]: ║    ⭐ OnePlayerSleep v3.6.4 ⭐                ║
+[07:56:20] [Server thread/INFO]: ║                                                  ║
+[07:56:20] [Server thread/INFO]: ║    Author: OPS                                ║
+[07:56:20] [Server thread/INFO]: ║    Server: 1.21.4-232-12d8fe0 (              ║
+[07:56:20] [Server thread/INFO]: ║                                                  ║
+[07:56:20] [Server thread/INFO]: ╠══════════════════════════════════════════════════╣
+[07:56:20] [Server thread/INFO]: ║                                                  ║
+[07:56:20] [Server thread/INFO]: ║    ✓ Event Listeners → LOADED              ║
+[07:56:20] [Server thread/INFO]: ║    ✓ Commands → REGISTERED                  ║
+[07:56:20] [Server thread/INFO]: ║    ✓ Configuration → INITIALIZED            ║
+[07:56:20] [Server thread/INFO]: ║                                                  ║
+[07:56:20] [Server thread/INFO]: ╠══════════════════════════════════════════════════╣
+[07:56:20] [Server thread/INFO]: ║                                                  ║
+[07:56:20] [Server thread/INFO]: ║    🌙 One Player Sleep → Enabled!          ║
+[07:56:20] [Server thread/INFO]: ║    💤 Skip nights with just ONE player!      ║
+[07:56:20] [Server thread/INFO]: ║                                                  ║
+[07:56:20] [Server thread/INFO]: ╚══════════════════════════════════════════════════╝
+[07:56:20] [Server thread/INFO]: 
+[07:56:20] [Server thread/INFO]: [survival-unlocked] Enabling survival-unlocked v1.0
+[07:56:20] [Server thread/INFO]: [survival-unlocked] smooth sleep transition enabled
+[07:56:20] [Server thread/INFO]: [survival-unlocked] custom shaped nether portals enabled
+[07:56:20] [Server thread/INFO]: [survival-unlocked] throwable fireballs enabled
+[07:56:20] [Server thread/INFO]: [survival-unlocked] invisible item frames enabled
+[07:56:20] [Server thread/INFO]: [survival-unlocked] better armor stands enabled
+[07:56:20] [Server thread/INFO]: [survival-unlocked] villagers follow emeralds enabled
+[07:56:20] [Server thread/INFO]: [survival-unlocked] silence mobs enabled
+[07:56:20] [Server thread/INFO]: [survival-unlocked] more mob heads enabled
+[07:56:20] [Server thread/INFO]: [survival-unlocked] player head drops enabled
+[07:56:20] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.9.2-SNAPSHOT
+[07:56:21] [Server thread/INFO]: [GraveStonePlugin] Enabling GraveStonePlugin v1.4
+[07:56:23] [Server thread/INFO]: [InteractionVisualizer] Enabling InteractionVisualizer v1.18.19.0
+[07:56:28] [Server thread/INFO]: [InteractionVisualizer] Opened Sqlite database successfully
+[07:56:29] [Server thread/INFO]: [InteractionVisualizer] InteractionVisualizer has been enabled!
+[07:56:30] [Server thread/INFO]: [spark] Starting background profiler...
+[07:56:30] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[07:56:30] [Server thread/INFO]: [Geyser-Spigot] 
+[07:56:30] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.9.2-b1035 (git-master-f90c664)
+[07:56:30] [Server thread/INFO]: [Geyser-Spigot] 
+[07:56:30] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[07:56:33] [GeyserServer-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[07:56:33] [Server thread/INFO]: [Geyser-Spigot] Done (3.258s)! Run /geyser help for help!
+[07:56:33] [Server thread/INFO]: Done preparing level "world" (32.507s)
+[07:56:33] [Server thread/INFO]: Running delayed init tasks
+[07:56:33] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[07:56:33] [Craft Scheduler Thread - 6 - InteractionVisualizer/INFO]: [InteractionVisualizer] Downloading and extracting latest Language files...
+[07:56:33] [Server thread/INFO]: Done (45.271s)! For help, type "help"
+[07:56:34] [Craft Scheduler Thread - 6 - InteractionVisualizer/INFO]: [InteractionVisualizer] Sucessfully downloaded the latest Language files!
+[07:56:59] [Server thread/INFO]: [SeasonsCore] [AeternumSeasons] StartupMelt finished.
+[07:57:09] [Server thread/INFO]: Unknown or incomplete command, see below for error
+plugin<--[HERE]
+[07:57:16] [User Authenticator #0/INFO]: UUID of player salmotide is 16350345-ac23-3594-b1d5-701f6f98edf1
+[07:57:18] [Server thread/INFO]: salmotide joined the game
+[07:57:18] [Server thread/INFO]: salmotide[/127.249.110.212:44345] logged in with entity id 50 at ([world]-487.5, 72.0, 292.5)
+[07:57:28] [Server thread/INFO]: salmotide issued server command: /plugins
+[07:57:31] [Server thread/INFO]: salmotide issued server command: /version BetterStructures
+[07:57:33] [Server thread/INFO]: salmotide issued server command: /version CustomizablePlayerModels
+[07:57:36] [Server thread/INFO]: salmotide issued server command: /version BetterStructures
+[07:58:02] [Server thread/INFO]: salmotide lost connection: Disconnected
+[07:58:02] [Server thread/INFO]: salmotide left the game
+[07:58:10] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
+[07:58:10] [Server thread/INFO]: Stopping server
+[07:58:10] [Server thread/INFO]: [InteractionVisualizer] Disabling InteractionVisualizer v1.18.19.0
+[07:58:10] [Server thread/INFO]: [InteractionVisualizer] Saving player preferences bitmask index, do not halt the server.
+[07:58:10] [Server thread/INFO]: [InteractionVisualizer] InteractionVisualizer has been disabled!
+[07:58:10] [Server thread/INFO]: [GraveStonePlugin] Disabling GraveStonePlugin v1.4
+[07:58:10] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.9.2-SNAPSHOT
+[07:58:10] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[07:58:11] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[07:58:11] [Server thread/INFO]: [survival-unlocked] Disabling survival-unlocked v1.0
+[07:58:11] [Server thread/INFO]: [OnePlayerSleep] Disabling OnePlayerSleep v3.6.4
+[07:58:11] [Server thread/INFO]: 
+[07:58:11] [Server thread/INFO]: ╔══════════════════════════════════════════════════╗
+[07:58:11] [Server thread/INFO]: ║                                                  ║
+[07:58:11] [Server thread/INFO]: ║    ⭐ OnePlayerSleep v3.6.4 - Shutting Down ⭐  ║
+[07:58:11] [Server thread/INFO]: ║                                                  ║
+[07:58:11] [Server thread/INFO]: ╠══════════════════════════════════════════════════╣
+[07:58:11] [Server thread/INFO]: ║                                                  ║
+[07:58:11] [Server thread/INFO]: ║    🌟 Thanks for using OnePlayerSleep!         ║
+[07:58:11] [Server thread/INFO]: ║    💙 Your players will miss the quick nights!  ║
+[07:58:11] [Server thread/INFO]: ║                                                  ║
+[07:58:11] [Server thread/INFO]: ╚══════════════════════════════════════════════════╝
+[07:58:11] [Server thread/INFO]: 
+[07:58:11] [Server thread/INFO]: [ValoriaHomes] Disabling ValoriaHomes v1.0.0
+[07:58:11] [Server thread/INFO]: [ValoriaHomes] Speichere alle Home-Caches...
+[07:58:11] [Server thread/INFO]: [ValoriaHomes] ValoriaHomes wurde deaktiviert.
+[07:58:11] [Server thread/INFO]: [SurvivalUtilities] Disabling SurvivalUtilities v1.0
+[07:58:11] [Server thread/INFO]: [CustomizablePlayerModels] Disabling CustomizablePlayerModels v0.6.25a
+[07:58:11] [Server thread/INFO]: [TPA] Disabling TPA v1.0
+[07:58:11] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.9.3
+[07:58:11] [Server thread/INFO]: [SeasonsCore] Disabling SeasonsCore v1.8
+[07:58:11] [Server thread/INFO]: [GSit] Disabling GSit v3.1.1
+[07:58:11] [Server thread/INFO]: [GSit] The plugin was successfully disabled.
+[07:58:11] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.7.0
+[07:58:11] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[07:58:11] [Server thread/INFO]: Saving players
+[07:58:11] [Server thread/INFO]: Saving worlds
+[07:58:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[07:58:11] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[07:58:11] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[07:58:11] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[07:58:12] [Server thread/INFO]: [ChunkHolderManager] Saved 841 block chunks, 625 entity chunks, 12 poi chunks in world 'world' in 1.73s
+[07:58:12] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[07:58:12] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[07:58:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[07:58:12] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[07:58:12] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[07:58:12] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[07:58:13] [Server thread/INFO]: [ChunkHolderManager] Saved 841 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.39s
+[07:58:13] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[07:58:13] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[07:58:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[07:58:13] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[07:58:13] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[07:58:13] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[07:58:13] [Server thread/INFO]: [ChunkHolderManager] Saved 841 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.25s
+[07:58:13] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[07:58:13] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[07:58:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[07:58:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07:58:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07:58:13] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[07:58:13] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[07:58:13] [Server thread/INFO]: All I/O tasks to complete
+[07:58:13] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[07:58:13] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

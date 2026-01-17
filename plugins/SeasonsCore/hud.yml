@@ -1,0 +1,9 @@
+bossbar:
+  enabled: true
+  color_by_season: true
+  update_ticks: 40
+  default_mode: FIXED
+  variable_players: []
+  off_players: []   # ✅ nuevo
+actionbar:
+  enabled: false

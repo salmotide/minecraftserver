@@ -1,0 +1,10 @@
+visual_atmosphere:
+  tick_period_ticks: 5   # cuán suave es la transición (más bajo = más fluido)
+  ease: 0.20             # 0.05..0.5 recomendable
+
+worlds:
+  # Lista de nombres de mundos donde el plugin Aeternum Seasons
+  # no debe aplicar efectos visuales (bossbar, clima, biomas, etc.).
+  disabled_season_fx:
+    - world_nether
+    - world_the_end
