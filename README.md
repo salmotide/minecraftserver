@@ -1,0 +1,2 @@
+# minecraftserver
+server java
